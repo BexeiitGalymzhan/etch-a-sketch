@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 20px;
+  background-color: azure;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: white;
+  margin: 50px 20px;
+  display: flex;
+  width: 480px;
+  height: 480px;
+  flex-wrap: wrap;
+}
+
+.container div {
+  width: 30px;
+  height: 30px;
+}
+
+button {
+  background-color: transparent;
+  padding: 10px 25px;
+  border: solid 2px black;
+  border-radius: 7px;
+}
